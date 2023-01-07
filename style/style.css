@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+/* Navigation */
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style: none;
+    margin-right: 128px;
+    margin-top: 48px;
+    font-size: 22px;
+    font-weight: 680;    
+}
+nav li a{
+    text-decoration: none;
+    color: #006FD1;    
+}
+li .home{
+    background-color: #006FD1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;    
+}
+/* Header */
+.header{
+    background-image: url(../images/banner/banner2.png);
+    height: 780px;
+    width: 100%;    
+}
+.header-contain{
+    text-align: right;
+    width: 520px;
+    position: absolute;
+    right: 0;
+    padding-right: 128px;    
+}
+.header-title{
+    color: #151414;
+    font-weight: 695;
+    font-size: 60px;
+    padding-top: 100px;    
+}
+.header-description{
+    color: #444343;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.header-contain a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-btn{
+    background: #006FD1;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+}
+/* About Myself */
+.my-failures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px;    
+}
+h2{
+    font-weight: 685;
+    font-size: 42px;
+    color: #151414;
+    margin-bottom: 22px;
+}
+.failures-description{
+    color: #444343;
+    margin-bottom: 18px;
+}
+.list li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.fa-check{
+    color: #16D887;    
+}
+.cb-text{
+    color: #444343;
+}
+/* My Skills */
+.skill-title{
+    font-weight: 695;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.skill-container{
+    display: flex;
+    padding: 0 130px;
+    text-align: center;    
+}
+.skill-container h3{
+    padding-top: 26px;    
+}
+.skill-container p{
+    color: #737272;
+    padding-top: 14px;   
+}
+/* My Plans Section Styles */
+.plan-title{
+    font-weight: 680;
+    text-align: center;
+    margin: 65px 0 55px;
+}
+.plans-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 130px;   
+}
+.plans-item h3{
+    padding-top: 26px;
+}
+.plans-item p{
+    color: #737272;
+    padding-top: 18px;
+}
+/* Bottom */
+.bottom-banner{
+    background-image: url(../images/gradient1.png) , url(../images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 8px;
+    width: 1115px;
+    height: 300px;
+    margin: 100px;
+    padding-top: 55px;
+    padding-left: 60px;
+}
+.banner-title{
+    color: #FFFFFF;
+}
+.call-btn a{
+    text-decoration: none;
+    color: #006FD1;
+}
+.call-btn{
+    width: 160px;
+    height: 60px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 24px;
+}
+/* Footer */
+footer{
+    background-color: black;
+}
+.contact-subscribe{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 80px; 
+}
+.contact{
+    width: 485px;
+}
+.contact h2{
+    color: #fff;
+}
+.contact p{
+    color: #fff;
+    line-height: 24px;
+}
+.icon{
+    margin-top: 38px;
+}
+.icon img{
+    padding-right: 28px;
+}
+.subscribe h3{
+    color: #fff;
+}
+
+.subscribe h3{
+    margin-bottom: 16px;
+}
+#email{
+    width: 328px;
+    height: 68px;
+    background-color: black;
+    color: #F3F3F3;
+    font-size: 37;
+    margin-bottom: 18px;
+    border-radius: 9px;
+    padding: 2px 22px;
+    border: 1px solid #FFFFFF;
+}
+.subscribe-btn{
+    width: 180px;
+    height: 64px;
+    color: #006FD1;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 595;
+    font-size: 22px;
+}
